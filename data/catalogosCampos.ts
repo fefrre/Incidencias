@@ -1,0 +1,92 @@
+export const cargos = [
+  "Administrador",
+  "Analista",
+  "Auxiliar Administrativo",
+  "Contador",
+  "Especialista en TI",
+  "Gerente de Proyectos",
+  "Recursos Humanos",
+  "Vendedor",
+  "Supervisor de Operaciones",
+  "Técnico de Mantenimiento",
+  "Director de Departamento",
+  "Coordinador de Área",
+  "Secretario/a",
+  "Recepcionista",
+] as const;
+
+export const puestos = [
+  "Director General",
+  "Director de Área",
+  "Subdirector",
+  "Gerente",
+  "Coordinador Senior",
+  "Coordinador Junior",
+  "Jefe de Sección",
+  "Analista Senior",
+  "Analista Junior",
+  "Asistente Administrativo",
+  "Operador",
+  "Técnico Especializado",
+  "Asesor",
+  "Consultor",
+] as const;
+
+export const categorias = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+] as const;
+
+export const niveles = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+] as const;
+
+export const horarios = [
+  "8:00-16:00",
+  "9:00-17:00",
+  "7:00-15:00",
+  "10:00-18:00",
+  "Lunes a Viernes 8:00-17:00",
+  "Lunes a Sábado 9:00-14:00",
+  "Rotativo (Mañana/Tarde/Noche)",
+  "Medio Tiempo (Mañana)",
+  "Medio Tiempo (Tarde)",
+  "Flexibilidad de horario",
+] as const;
+
+export const movimientos = [
+  "Alta",
+  "Baja",
+  "Cambio de Puesto",
+  "Cambio de Horario",
+  "Reingreso",
+  "Promoción",
+  "Transferencia de Área",
+  "Suspensión Temporal",
+  "Fin de Contrato",
+  "Reajuste de Sueldo",
+  "Incapacidad",
+  "Licencia",
+] as const;
